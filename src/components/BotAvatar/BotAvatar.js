@@ -4,7 +4,7 @@ import './BotAvatar.css'
 const BotAvatar = () => {
     return (
         <div className="service-bot-avatar">
-            Service Bot
+           S
             
         </div>
     )

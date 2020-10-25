@@ -8,6 +8,16 @@ const config = {
   botName: "ServiceBot",
   customComponents: {
       botAvatar: (props) => <BotAvatar {...props} />
+  },
+  customStyles: {
+      // Overrides chatbot message styles
+      botMessageBox: {
+          backgroundColor: 'lightblue',
+      },
+      //Overrides chatbot button styles
+      chatButton: {
+          backgroundColor: "blue",
+      },
   }
 }
 
