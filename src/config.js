@@ -12,11 +12,11 @@ const config = {
   customStyles: {
       // Overrides chatbot message styles
       botMessageBox: {
-          backgroundColor: 'lightblue',
+          backgroundColor: 'purple',
       },
       //Overrides chatbot button styles
       chatButton: {
-          backgroundColor: "blue",
+          backgroundColor: "purple",
       },
   }
 }
