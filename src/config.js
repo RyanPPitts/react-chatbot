@@ -18,6 +18,11 @@ const config = {
       chatButton: {
           backgroundColor: "purple",
       },
+  },
+
+  //define the state of the app
+  state: { 
+      movieTitles: ["The lord of the rings", "Con air"]
   }
 }
 
