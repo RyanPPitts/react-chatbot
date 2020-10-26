@@ -15,7 +15,7 @@ class MessageParser {
     //message is the prop/state of the app
       const lowercase= message.toLowerCase()
 
-      if (lowercase.includes('hello')) {
+      if (lowercase.includes('hi')) {
         this.actionProvider.helloworldHandler()
       }
     }
