@@ -5,9 +5,7 @@ import BotAvatar from "./components/BotAvatar/BotAvatar";
 import Todos from './components/Todos/Todos.jsx';
 
 const config = {
-  initialMessages: [createChatBotMessage(`Hi`, {
-      widget: "todos"
-  })],
+  initialMessages: [createChatBotMessage(`Hi`)],
   botName: "ServiceBot",
   customComponents: {
       botAvatar: (props) => <BotAvatar {...props} />

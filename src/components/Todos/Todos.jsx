@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './Todos.css';
 
 const Todos = (props) => {
     //destruct state from props
@@ -20,7 +21,7 @@ const Todos = (props) => {
       // renderTodos is a variable - const - 
       const renderTodos = () => {
           return props.todos.map((todo) => {
-            <li className="todo-widget-list-item" key={todo.id}>
+           return  <li className="todo-widget-list-item" key={todo.id}>
                 {todo.title}
             </li>;
           });

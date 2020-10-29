@@ -13,6 +13,13 @@ class ActionProvider {
       this.setChatbotMessage(message)
     }
 
+    todosHandler = () => {
+      const message = this.createChatBotMessage("Sure. Here's your todos", {
+        widget: "todos",
+      })
+      this.setChatbotMessage(message);
+    }
+
     //method to allow to add chatbot message to the state of the app
     setChatbotMessage = (message) => {
       this.setState(state => ({ ...state, messages: [ ...state.messages, message ]}) )

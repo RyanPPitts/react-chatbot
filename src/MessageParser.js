@@ -18,6 +18,10 @@ class MessageParser {
       if (lowercase.includes('hi')) {
         this.actionProvider.helloworldHandler()
       }
+
+      if (lowercase.includes('todos')) {
+        this.actionProvider.todosHandler();
+      }
     }
   }
   
